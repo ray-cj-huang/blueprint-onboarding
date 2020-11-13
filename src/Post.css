@@ -1,0 +1,64 @@
+h1 {
+
+}
+
+p {
+    display:inline;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.post {
+    order: 3;
+
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    padding: 2em;
+
+    position: relative;
+    width: calc(28.33vw - 4em - 4px);
+    height: 20%;
+    background: lemonchiffon;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px lavender;
+    transition: all .4s ease;
+}
+
+.post:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px lavender;
+}
+
+.post-comp {
+    display: block;
+}
+
+.message {
+    overflow-y: scroll;
+    padding: 1rem;
+    width: 80%;
+    height: 30vh;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+      0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    
+    border-left: 0 solid #fed8b1;
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+  
+.message:hover {
+    padding-left: 0.5rem;
+    border-left: 0.5rem solid #fed8b1;
+}
+
+.message > :first-child {
+    margin-top: 0;
+}
+
+.thing > :last-child {
+    margin-bottom: 0;
+}
