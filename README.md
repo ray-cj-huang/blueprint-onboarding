@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Credit
+
+All to [LA Blueprint](https://www.notion.so/Developer-Onboarding-cf933b6452094d83ac879398afe9ba52)! 
+
 ## Available Scripts
 
 In the project directory, you can run:
